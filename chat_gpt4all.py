@@ -9,10 +9,10 @@ import requests
 API_URL = "https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct"  # Cambia el modelo si es necesario
 #API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-large"
 
-#HEADERS = {"Authorization": "Bearer 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"}  # Reemplaza con tu API Key de Hugging Face
+HEADERS = {"Authorization": "Bearer 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"}  # Reemplaza con tu API Key de Hugging Face
 
 
-st.title("🤖 Chat con Hugging en Vivo ")
+st.title("🤖 Chat con Hugging ")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
