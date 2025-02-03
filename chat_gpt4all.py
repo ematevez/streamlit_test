@@ -12,7 +12,7 @@ API_URL = "https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct
 #HEADERS = {"Authorization": "Bearer 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"}  # Reemplaza con tu API Key de Hugging Face
 
 
-st.title("🤖 Chat con Hugging ")
+st.title("🤖 Chat con Hugging en Vivo ")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
